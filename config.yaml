@@ -67,9 +67,9 @@ contact: 'gsiegmund@usgs.gov' # FIXME
 # Order of episodes in your lesson
 episodes: 
 - introduction.Rmd
-- intro-qaqc.Rmd
+# - intro-qaqc.Rmd
 - UnderstandingYourData.Rmd
-- data_types.Rmd
+# - data_types.Rmd
 
 
 # Information for Learners
