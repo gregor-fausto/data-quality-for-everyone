@@ -21,11 +21,7 @@ exercises: 0
 
 ## Introduction
 
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.txt) for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output. 
-Please refer to the [Introduction to The Carpentries 
-Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
+In the lesson, the instructor will demonstraite how to read data using R, introduce the basic data types, and demonstrate common issues that may be associated with each data type. This will familiarize learners with the RStudio GUI, common data structres, and build the foundation for addressing common data QA/QC.
 
 What you need to know is that there are three sections required for a valid
 Carpentries lesson template:
@@ -46,12 +42,15 @@ associated with the lessons. They appear in the "Instructor View"
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-## Challenge 1: Can you do it?
-
-What is the output of this command?
+## Challenge 1: Using R, open the provided dataset and answer the following information:
+  
+1) How many records and columns are in the dataset?  
+  
+2) How many different types of data are in the dataset and what are they?   
 
 ```r
-paste("This", "new", "lesson", "looks", "good")
+df <- read_csv(file_name.csv)
+str(df)
 ```
 
 :::::::::::::::::::::::: solution 
@@ -65,7 +64,7 @@ paste("This", "new", "lesson", "looks", "good")
 :::::::::::::::::::::::::::::::::
 
 
-## Challenge 2: how do you nest solutions within challenge blocks?
+## Challenge 2: Can you identify any issues with the dataset?
 
 :::::::::::::::::::::::: solution 
 
@@ -112,14 +111,6 @@ e.g. by providing the answer to a commonly-asked question.
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 
-## Math
-
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
-
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
-
-Cool, right?
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
