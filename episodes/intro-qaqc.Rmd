@@ -85,7 +85,7 @@ str(cars)
 
 :::::::::::::::::::::::: solution 
  
-```{r challenge-2-problem, echo=FALSE, results='asis'}
+```{r challenge-2-solution, echo=FALSE, results='asis'}
 str(cars)
 ```
 
