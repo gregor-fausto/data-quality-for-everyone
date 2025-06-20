@@ -23,105 +23,55 @@ exercises: 2
 
 ## Introduction
 
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.txt) for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output. 
-Please refer to the [Introduction to The Carpentries 
-Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
+Quality assurance and quality control are both components of the data life cycle. Quality assurance focuses on preventing errors by taking steps during and before data are acquired or collected, while quality control evaluates data to determine whether they are correct, complete, and consistent.
 
-What you need to know is that there are three sections required for a valid
-Carpentries lesson template:
+::: callout
 
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
+We use the USGS model of the data life cycle, but there are various models of data life cycles.
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
+:::
 
-Inline instructor notes can help inform instructors of timing challenges
-associated with the lessons. They appear in the "Instructor View"
+Data collected by USGS hydrologists on freshwater water quality is likely to undergo both quality assurance and quality control. For this type of data, quality assurance steps could include:
 
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+- training in standard field methods
+- designing data templates
+- backing up datasets
+
+Quality control steps could include:
+
+- evaluating a dataset for missing values
+- checking for issues with data that is out of range
+- flagging errors
+
+::: discussion
+
+In 1-2 sentences, describe a dataset that you work on or that you are familiar with. Then, list 4-5 data quality issues that could arise while working with this data.
+
+:::
 
 ::::::::::::::::::::::::::::::::::::: challenge 
 
-## Challenge 1: Can you do it?
+## Challenge 1: Quality assurance vs. quality control?
 
-What is the output of this command?
+Review a USGS resource, such as the [Data Management webpage](https://www.usgs.gov/data-management/manage-quality). Differentiate between quality assurance and quality control by sorting tasks (from McCord et al. 2021) under the header of one or another activity.
 
-```r
-paste("This", "new", "lesson", "looks", "good")
-```
+- document errors
+- develop data management plan
+- record metadata
+- review data
+- check calculations using data
+- track methods
 
 :::::::::::::::::::::::: solution 
-
-## Output
  
-```output
-[1] "This new lesson looks good"
-```
-
-:::::::::::::::::::::::::::::::::
-
-
-## Challenge 2: how do you nest solutions within challenge blocks?
-
-:::::::::::::::::::::::: solution 
-
-You can add a line with at least three colons and a `solution` tag.
+| QA    | QC |
+| -------- | ------- |
+| develop data management plan  | document errors    |
+| record metadata | review data     |
+| track methods    | check calculations using data    |
 
 :::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::
-
-## Figures
-
-You can also include figures generated from R Markdown:
-
-
-``` r
-pie(
-  c(Sky = 78, "Sunny side of pyramid" = 17, "Shady side of pyramid" = 5), 
-  init.angle = 315, 
-  col = c("deepskyblue", "yellow", "yellow3"), 
-  border = FALSE
-)
-```
-
-<div class="figure" style="text-align: center">
-<img src="fig/intro-qaqc-rendered-pyramid-1.png" alt="pie chart illusion of a pyramid"  />
-<p class="caption">Sun arise each and every morning</p>
-</div>
-
-Or you can use standard markdown for static figures with the following syntax:
-
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
-
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
-
-::::::::::::::::::::::::::::::::::::: callout
-
-Callout sections can highlight information.
-
-They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present "asides": 
-content that is not central to the narrative of the lesson,
-e.g. by providing the answer to a commonly-asked question.
-
-::::::::::::::::::::::::::::::::::::::::::::::::
-
-
-## Math
-
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
-
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
-
-Cool, right?
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
