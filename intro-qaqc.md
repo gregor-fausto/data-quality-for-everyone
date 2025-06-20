@@ -73,6 +73,26 @@ Review a USGS resource, such as the [Data Management webpage](https://www.usgs.g
 :::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+::::::::::::::::::::::::::::::::::::: challenge 
+
+## Challenge 2: Am I using these code chunks correctly?
+
+What do your data look like?
+
+
+``` r
+str(cars)
+```
+
+:::::::::::::::::::::::: solution 
+ 
+'data.frame':	50 obs. of  2 variables:
+ $ speed: num  4 4 7 7 8 9 10 10 10 11 ...
+ $ dist : num  2 10 4 22 16 10 18 26 34 17 ...
+
+:::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
 - Managing data quality supports scientific research, data releases, and communication
