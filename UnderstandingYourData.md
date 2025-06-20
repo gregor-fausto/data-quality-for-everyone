@@ -43,34 +43,12 @@ associated with the lessons. They appear in the "Instructor View"
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-::::::::::::::::::::::::::::::::::::: challenge 
+::::::::::::::::::::::::::::::::::::: discussion
 
-## Challenge 1: Can you do it?
+## Juneau Ice Fields Weather Station: How do you QA/QC?
 
-What is the output of this command?
+Read over the readME file for The [Juneau Icefield Weather station data] (https://www.sciencebase.gov/catalog/item/5d5b13f9e4b01d82ce8ed3be). What quality control procedures do the authors employ for the different data types? Alone or with a partner, Think about types of data you commonly work with and create a list of checks you do or may employ for those data.
 
-```r
-paste("This", "new", "lesson", "looks", "good")
-```
-
-:::::::::::::::::::::::: solution 
-
-## Output
- 
-```output
-[1] "This new lesson looks good"
-```
-
-:::::::::::::::::::::::::::::::::
-
-
-## Challenge 2: how do you nest solutions within challenge blocks?
-
-:::::::::::::::::::::::: solution 
-
-You can add a line with at least three colons and a `solution` tag.
-
-:::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Figures
