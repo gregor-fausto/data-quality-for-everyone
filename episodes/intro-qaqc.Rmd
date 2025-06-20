@@ -73,6 +73,25 @@ Review a USGS resource, such as the [Data Management webpage](https://www.usgs.g
 :::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
+::::::::::::::::::::::::::::::::::::: challenge 
+
+## Challenge 2: Am I using these code chunks correctly?
+
+What do your data look like?
+
+```{r challenge-2-problem, echo=TRUE, results='hide'}
+str(cars)
+```
+
+:::::::::::::::::::::::: solution 
+ 
+```{r challenge-2-problem, echo=FALSE, results='asis'}
+str(cars)
+```
+
+:::::::::::::::::::::::::::::::::
+::::::::::::::::::::::::::::::::::::::::::::::::
+
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
 - Managing data quality supports scientific research, data releases, and communication
