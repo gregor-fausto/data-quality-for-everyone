@@ -37,7 +37,7 @@ license: 'CC-BY 4.0'
 source: 'https://github.com/gregor-fausto/data-quality-for-everyone' # FIXME
 
 # Default branch of your lesson
-branch: 'main'
+branch: 'develop'
 
 # Who to contact if there are any issues
 contact: 'gsiegmund@usgs.gov' # FIXME
@@ -66,11 +66,10 @@ contact: 'gsiegmund@usgs.gov' # FIXME
 
 # Order of episodes in your lesson
 episodes: 
-# - introduction.Rmd
 - intro-qaqc.Rmd
 - UnderstandingYourData.Rmd
 - data_types.Rmd
-
+- introduction.Rmd
 
 # Information for Learners
 learners: 
