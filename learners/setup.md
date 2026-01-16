@@ -27,6 +27,8 @@ systems (and potentially add more, e.g. online setup) in the solutions blocks.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::
 
+### R 
+
 :::::::::::::::: spoiler
 
 ### Windows
@@ -52,3 +54,44 @@ Use Terminal
 
 ::::::::::::::::::::::::
 
+### RStudio
+
+:::::::::::::::: spoiler
+
+### Windows
+
+Use PuTTY
+
+::::::::::::::::::::::::
+
+:::::::::::::::: spoiler
+
+### MacOS
+
+Use Terminal.app
+
+::::::::::::::::::::::::
+
+
+:::::::::::::::: spoiler
+
+### Linux
+
+Use Terminal
+
+::::::::::::::::::::::::
+
+### R Packages
+
+The following R packages will be used in this lesson:
+ - dplyr
+ - ggplot2
+
+To install these packages in RStudio, do the following:
+1. Open RStudio by double-clicking the RStudio application icon. You should see something like this:
+[insert image]
+
+2. Type the following into the console and hit enter.
+```r
+install.packages(c("dplyr", "ggplot2"))
+```
